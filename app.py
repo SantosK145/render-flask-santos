@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "API funcionando en Render, RailWay y Docker para probar el despliegue"
+    return "API funcionando en Render, RailWay, Docker y Azure para probar el despliegue"
 
 
 if __name__ == "__main__":
